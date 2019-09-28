@@ -1,0 +1,14 @@
+javascript:
+i=0;
+n=document.querySelectorAll('._0mzm-').length;
+str2="Following";
+while(i<n){
+	str=document.querySelectorAll('._0mzm-')[i].innerHTML;
+	if(str==str2){
+		document.querySelectorAll('._0mzm-')[i].click();    
+		setTimeout(10000);
+		if(document.querySelectorAll('.aOOlW')[0])
+		document.querySelectorAll('.aOOlW')[0].click();
+	}
+	i++;
+};

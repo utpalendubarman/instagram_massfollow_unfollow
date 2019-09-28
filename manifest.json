@@ -1,0 +1,20 @@
+{
+	"name":"RuHiInstaScript",
+	"description":"Follow and Unfollow all peoples in one click",
+	"version":"1.0",
+	"manifest_version":2,
+	"browser_action":{
+		"default_icon": "icon.png",
+		"default_popup":"popup.html"
+	},
+	"content_scripts":[{
+		"matches":["<all_urls>"],
+		"js":["content_script.js"]
+	}],
+	 "permissions": [
+    "activeTab","tabs"
+  ],
+    "icons": { "16": "icon16.png",
+           "48": "icon48.png",
+          "128": "icon128.png" }	
+}

@@ -1,0 +1,1 @@
+All Rights reserved, copy/past is illegal without the valid permision of the developer

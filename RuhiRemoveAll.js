@@ -1,0 +1,1 @@
+ n=document.querySelectorAll('.L3NKy').length; str2="Follow"; i=0; while(i<n){ if(str2!=document.querySelectorAll('.L3NKy')[i].innerHTML) document.querySelectorAll('.wo9IH')[i].remove(); i++; };
